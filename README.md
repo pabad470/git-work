@@ -24,4 +24,4 @@ Comandos y salidas (git log, git remote -v, git tag, gh pr list...).
 Tabla: problema | causa | solución (incluye el conflicto de cover.css).
 
 ## Repositorio remoto
-https://github.com/TU_USUARIO/git-work
+https://github.com/pabad470/git-work

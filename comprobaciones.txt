@@ -1,4 +1,7 @@
-$ git log --oneline --graph --all
+# Comprobaciones de la AE1
+
+## git log --oneline --graph --all
+* a9d3e39 Documenta la práctica y añade las comprobaciones
 * 8f07714 Cierra la issue #2
 * 0ae54e1 Añade sombra al botón principal y cierra la issue #2
 *   567b7dc Resuelve el conflicto de cover.css
@@ -17,15 +20,35 @@ $ git log --oneline --graph --all
 * 59a3d22 Añade la página de la startup y su hoja de estilos
 * 844ef68 Initial commit
 
-$ git remote -v
+## git remote -v
 espejo	git@github.com:pabad470/git-work-espejo.git (fetch)
 espejo	git@github.com:pabad470/git-work-espejo.git (push)
 origin	git@github.com:pabad470/git-work.git (fetch)
 origin	git@github.com:pabad470/git-work.git (push)
 
-$ git tag
+## git tag
 0.1.0
 
-$ git log --format="%an <%ae>" | sort -u
+## Autoría
 pabad470 <pablo.abadgil@icloud.com>
 Pablo Abad Gil <pablo.abadgil@icloud.com>
+
+## git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     comprobaciones.txt
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+## Pull requests
+
+## Issues
+2	CLOSED	Improve UX with cool colors		2026-09-28T23:18:43Z
+1	CLOSED	Add custom text for startup contents		2026-09-28T23:16:40Z
+
+## Releases
+0.1.0	Latest	0.1.0	2026-09-28T23:24:11Z
